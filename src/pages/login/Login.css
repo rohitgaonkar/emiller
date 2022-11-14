@@ -1,0 +1,54 @@
+.image{
+
+    width: 200px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 130px;
+    
+   
+}
+
+button:disabled{
+    color: gray !important;
+}
+
+.err{
+    text-align: center;
+    color: red;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #a1c4fd;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(215, 227, 247), rgba(194, 233, 251, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(185, 196, 214), rgba(194, 233, 251, 1))
+    }
+  
+    @media screen and (max-width:420px)
+{
+.image{
+
+    width: 200px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left:40px;
+    
+   
+}
+
+}
+
+#logintaplate{
+    background-color: ghostwhite;
+}

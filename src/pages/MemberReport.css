@@ -1,0 +1,13 @@
+body{
+    background: -webkit-linear-gradient(to right, rgb(229, 232, 236), rgb(223, 234, 240));
+  }
+
+.report{
+    text-align: right;
+}
+
+table,th{
+    border: 2px solid black;
+    text-align: center;
+}
+

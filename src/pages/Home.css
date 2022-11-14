@@ -1,0 +1,201 @@
+.navbar-brand{
+  margin-left: 40%;
+  text-align: center;
+}
+
+.App-logo {
+  width:100px;
+  height:50px;
+  margin-left: 6vw;
+}
+
+
+.Menus {
+  height: 150px;
+  width: 150px;
+  margin-left: 35%;
+  border-style: double;
+  border-radius: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(170, 170, 196);
+
+  }
+  
+  .Menus li{
+  
+  list-style: none;
+
+  background-color: rgba(184, 135, 11, 0.425);
+
+  visibility: hidden;
+  }
+  .Menus li:hover{
+    background-color: rgb(255, 184, 4);
+  }
+  
+  ul{
+  border-radius: vw;
+  width: 200px;
+ 
+  }
+
+
+  .hide{
+  opacity: 0;
+  }
+  
+  a:active {
+  color: black;
+  }
+
+
+.images{
+  position:absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.profile{
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.ftext{
+  color: whitesmoke;
+  text-align: center;
+}
+
+  #menus1:hover li {
+
+    visibility: visible;
+    }
+    
+    #menus2:hover li{
+    
+    visibility: visible;
+    }
+    #menus3:hover li{
+    
+    visibility: visible;
+    }
+    #menus4:hover li{
+    
+    visibility: visible;
+    }
+    #menus5:hover li{
+    
+    visibility: visible;
+    }
+    #menus6:hover li{
+    
+    visibility: visible;
+    }
+
+    footer{
+      margin-top: -10px;
+    }
+
+    @media screen and (max-width:574px)
+{
+ 
+  .Menus {
+  
+    height: 20vw;
+   
+  
+  
+    }
+
+    .App-logo {
+      
+      margin-left: 0vw;
+    }
+
+}
+
+@media screen and (max-width:1199px)
+{
+ 
+  .Menus {
+  
+    height: 150px;
+    width: 150px;
+   
+  
+  
+    }
+
+}
+.footer{
+  background: black;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 80px 0 20px;
+}
+.footer p{
+  color: #8a8a8a;
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+  flex: 1;
+  margin-top: 60px;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 200px;
+  margin-top: 20px;
+  padding-right: 40px;
+  margin-left: -90px;
+}
+.footer-col-3, .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+ margin-bottom: 70px;
+}
+.app-logo img{
+  width: 100px;
+}
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+.white{
+  color: rgb(79, 211, 39);
+  margin-top: 20px;
+}
+
+.footerimage{
+width: 150px;
+}

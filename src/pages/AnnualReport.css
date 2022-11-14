@@ -1,0 +1,37 @@
+body{
+  background: -webkit-linear-gradient(to right, rgb(229, 232, 236), rgb(223, 234, 240));
+  }
+
+#theForm{
+  padding-left: 50px;
+}
+
+.report{
+  padding-left: 50px;
+}
+
+.ss{
+  margin-top: -5px;
+}
+
+@media screen and (max-width:450px)
+{
+  .left{
+    padding-left: 100%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width:574px)
+{
+  .left{
+    padding-left: 30%;
+    margin-top: 5%;
+  }
+
+  #right{
+    padding-left: 35%;
+    width: 65%;
+  }
+  
+}

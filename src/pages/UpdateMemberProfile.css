@@ -1,0 +1,87 @@
+.navbar-brand{
+    margin-left: 40%;
+    text-align: center;
+  }
+  
+  .App-logo {
+    width:100px;
+    height:50px;
+    margin-left: 6vw;
+  }
+  
+   
+  .profile{
+  
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .ftext{
+    color: whitesmoke;
+    text-align: center;
+  }
+  #info{
+    margin-top: 0px;
+  }
+
+ 
+  h1{
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .gradient-custom-2 {
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgb(229, 232, 236), rgb(223, 234, 240));
+    }
+
+
+    @media screen and (max-width:574px)
+{
+ 
+  .App-logo {
+    width:100px;
+    height:50px;
+    margin-left: 0vw;
+  }
+}
+
+.Profilepic{
+margin-top: 100px;
+width: 180px;
+height: 180px;
+background-color: aqua;
+border-radius: 30px;
+}
+.gg{
+  margin-top: 21px;
+  margin-left:50px;
+  text-align: left;
+}
+
+.bb{
+  margin-top: 20px;
+}
+.aa{
+  margin-top: 21px;
+  
+  text-align: left;
+}
+
+
+#lastbtn{
+  margin-bottom: 30px;
+}
+#upbtn{
+  margin-bottom: 30px;
+  background-color: aqua;
+}
+.mf{
+      position: absolute;
+     margin-left: -90px;
+      width: 180px;
+      height: 180px;
+      border-radius: 30px;
+}

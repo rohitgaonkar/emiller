@@ -1,0 +1,41 @@
+.image{
+
+    width: 200px;
+    height: 100px;
+    margin-top: -80px;
+    margin-left: 130px;
+    
+   
+}
+
+button:disabled{
+    color: gray !important;
+}
+
+.err{
+    text-align: center;
+    color: red;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #a1c4fd;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(229, 232, 236), rgb(223, 234, 240));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgb(229, 232, 236), rgb(223, 234, 240));
+    }
+
+    #rad{
+        margin-bottom: 50px;
+    }
+   

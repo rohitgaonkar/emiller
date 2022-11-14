@@ -1,0 +1,108 @@
+.navbar-brand{
+  margin-left: 40%;
+  text-align: center;
+}
+
+.App-logo {
+  width:100px;
+  height:50px;
+  margin-left: 6vw;
+}
+
+
+.Menus {
+  height: 150px;
+  width: 150px;
+  margin-left: 35%;
+  border-style: double;
+  border-radius: 60%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rgb(170, 170, 196);
+
+  }
+  
+  ul{
+  border-radius: vw;
+  width: 200px;
+ 
+  }
+
+  #info{
+    text-align: justify;
+  }
+  
+  a:active {
+  color: black;
+  background-color: rgb(170, 170, 196);
+  }
+
+.images{
+  position:absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.profile{
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.ftext{
+  color: whitesmoke;
+  text-align: center;
+}
+
+footer{
+  margin-top: -16px;
+}
+
+    @media screen and (max-width:574px)
+{
+ 
+  .Menus {
+  
+    height: 20vw;
+  
+    }
+
+    .App-logo {
+      
+      margin-left: 0vw;
+    }
+
+}
+
+
+@media screen and (max-width:1199px)
+{
+ 
+  .Menus {
+  
+    height: 150px;
+    width: 150px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  
+    }
+
+}
+
+
+.contain {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+h6 {
+  position: absolute;
+  margin-left: 185px;
+}
+
